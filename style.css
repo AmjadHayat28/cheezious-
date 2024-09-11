@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.slider-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+  }
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  .slide {
+    
+    min-width: 100%;
+    transition: opacity 0.5s ease-in-out;
+  }
